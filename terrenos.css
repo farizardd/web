@@ -1,0 +1,68 @@
+body {
+    background-color: #f4f4f9;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.card-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+.nav-item:hover {
+    background-color: #ffffff;
+    border-radius: 20%;
+    border-color: #ffffff;
+    border-style: hidden;
+    animation-delay: 3s;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+    transition-delay: 0s;
+    transform: scale(1.1);
+}   
+a {
+    text-decoration: none;
+}
+.links:hover {
+    text-decoration: underline;
+}
+header h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del título */
+}
+#logo {
+    height: 60px; /* Ajusta la altura del logo */
+    width: auto; /* Mantén las proporciones */
+    border-radius: 50%; /* Hace la imagen circular (opcional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el logo */
+    mix-blend-mode: multiply; /* Mezcla los colores */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre el logo y el texto */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del título */
+}

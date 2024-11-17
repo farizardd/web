@@ -1,0 +1,57 @@
+.nav-link:hover {
+    background-color: #ffffff;
+    border-radius: 20%;
+    border-color: #ffffff;
+    border-style: hidden;
+    animation-delay: 3s;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+    transition-delay: 0s;
+    transform: scale(1.1);
+             
+}
+li {
+    list-style: none;   
+}
+h2{
+    color: blue;
+}
+strong {
+    color: blue;
+}
+.fa-location-dot {
+    position: absolute;
+    left: 6%;
+    top:37%;
+}
+.fa-ruler {
+    position: absolute;
+    left:5.8%;
+    top:43%;
+}
+.fa-file-prescription{
+    position: absolute;
+    left: 6%;
+    top:49%;
+}
+.fa-hand-holding-dollar{
+    position: absolute;
+    left: 5.8%;
+    top: 55%;
+}
+#logo {
+    height: 60px; /* Ajusta la altura del logo */
+    width: auto; /* Mantén las proporciones */
+    border-radius: 50%; /* Hace la imagen circular (opcional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el logo */
+    mix-blend-mode: multiply; /* Mezcla los colores */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre el logo y el texto */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del título */
+}

@@ -1,0 +1,72 @@
+.nav-link:hover {
+    background-color: #ffffff;
+    border-radius: 20%;
+    border-color: #ffffff;
+    border-style: hidden;
+    animation-delay: 3s;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+    transition-delay: 0s;
+    transform: scale(1.1);
+             
+}
+li {
+    list-style: none;   
+}
+.fa-toilet {
+    position: absolute;
+    top:93%;
+    left: 5%;
+}
+.fa-bed {
+    position: absolute;
+    top: 87%;
+    left:5%
+}
+.fa-seedling {
+    position: absolute;
+    top: 99%;
+    left: 5%;
+}
+.fa-house {
+    position: absolute;
+    top: 106%;
+    left: 5%;
+}
+.fa-ruler {
+    position: absolute;
+    top: 112%;
+    left:5%;
+}
+.fa-calendar {
+    position: absolute;
+    top:118.3%;
+    left: 5%;
+}
+.fa-check {
+    position: absolute;
+    top:125%;
+    left: 5%;
+}
+h2 {
+    color:blue
+}
+strong {
+    color: #29359c;
+}
+#logo {
+    height: 60px; /* Ajusta la altura del logo */
+    width: auto; /* Mantén las proporciones */
+    border-radius: 50%; /* Hace la imagen circular (opcional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el logo */
+    mix-blend-mode: multiply; /* Mezcla los colores */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre el logo y el texto */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del título */
+}
