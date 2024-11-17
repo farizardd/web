@@ -12,46 +12,7 @@
 li {
     list-style: none;   
 }
-.fa-toilet {
-    position: absolute;
-    bottom:18.8%;
-    left: 8.5%;
-}
-.fa-bed {
-    position: absolute;
-    bottom: 22%;
-    left:8%
-}
-.fa-house {
-    position: absolute;
-    bottom: 15.4%;
-    left: 8.4%;
-}
-.fa-seedling {
-    position: absolute;
-    bottom: 11%;
-    left: 8.4%;
-}
-.fa-tree {
-    position: absolute;
-    bottom: 7.5%;
-    left: 8.4%;
-}
-.fa-ruler {
-    position: absolute;
-    bottom: 4%;
-    left:8.4%
-}
-.fa-calendar {
-    position: absolute;
-    bottom:0.4%;
-    left: 8.4%;
-}
-.fa-check {
-    position: absolute;
-    bottom:-3.5%;
-    left:8.4%;
-}
+
 h2 {
     color:blue
 }
