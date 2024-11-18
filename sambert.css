@@ -26,16 +26,16 @@ strong {
 .info-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+    margin-bottom: 10px; /* Espaciado entre los elementos */
 }
 
 .info-item i {
-    margin-right: 10px; /* Espacio entre el ícono y el texto */
-    font-size: 1.2rem; /* Ajusta el tamaño del ícono si es necesario */
+    font-size: 20px; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
 }
 
 .info-item p {
-    margin: 0; /* Elimina el margen por defecto de los párrafos */
+    margin: 0; /* Eliminar márgenes del párrafo */
 }
 #logo {
     height: 60px; /* Ajusta la altura del logo */
