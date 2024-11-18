@@ -18,26 +18,21 @@ h2{
 strong {
     color: blue;
 }
-.fa-location-dot {
-    position: absolute;
-    left: 6%;
-    top:37.5%;
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre los elementos */
 }
-.fa-ruler {
-    position: absolute;
-    left:5.8%;
-    top:44%;
+
+.info-item i {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    font-size: 1.2rem; /* Ajusta el tamaño del ícono si es necesario */
 }
-.fa-file-prescription{
-    position: absolute;
-    left: 6%;
-    top:50%;
+
+.info-item p {
+    margin: 0; /* Elimina el margen por defecto de los párrafos */
 }
-.fa-hand-holding-dollar{
-    position: absolute;
-    left: 5.8%;
-    top: 56%;
-}
+
 #logo {
     height: 60px; /* Ajusta la altura del logo */
     width: auto; /* Mantén las proporciones */
