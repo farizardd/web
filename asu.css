@@ -18,10 +18,15 @@ h2{
 strong {
     color: blue;
 }
+.info-list {
+    list-style: none; /* Elimina el estilo de lista predeterminado */
+    padding: 0; /* Elimina el relleno de la lista */
+}
+
 .info-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Espacio entre los elementos */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
 }
 
 .info-item i {
@@ -32,7 +37,6 @@ strong {
 .info-item p {
     margin: 0; /* Elimina el margen por defecto de los párrafos */
 }
-
 #logo {
     height: 60px; /* Ajusta la altura del logo */
     width: auto; /* Mantén las proporciones */
