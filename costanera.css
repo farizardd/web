@@ -12,41 +12,6 @@
 li {
     list-style: none;   
 }
-.fa-toilet {
-    position: absolute;
-    bottom:8%;
-    left: 5%;
-}
-.fa-bed {
-    position: absolute;
-    bottom: 14%;
-    left:5%
-}
-.fa-seedling {
-    position: absolute;
-    bottom: 2%;
-    left: 5%;
-}
-.fa-tree {
-    position: absolute;
-    bottom: -4.5%;
-    left: 5%;
-}
-.fa-ruler {
-    position: absolute;
-    bottom: -11%;
-    left:5%
-}
-.fa-calendar {
-    position: absolute;
-    bottom:-17%;
-    left: 5%;
-}
-.fa-check {
-    position: absolute;
-    bottom:-23%;
-    left:5%;
-}
 h2 {
     color:blue
 }
@@ -69,4 +34,20 @@ strong {
 
 header h1 {
     font-size: 1.5rem; /* Ajusta el tamaño del título */
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Espaciado entre los elementos */
+}
+
+ul li i {
+    margin-right: 8px; /* Espaciado entre el ícono y el texto */
+    color: #555; /* Color del ícono, opcional */
 }
