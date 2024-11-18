@@ -12,45 +12,21 @@
 li {
     list-style: none;   
 }
-.fa-toilet {
-    position: absolute;
-    top:86%;
-    left: 5%;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.fa-bed {
-    position: absolute;
-    top: 80%;
-    left:5%
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Espaciado entre los elementos */
 }
-.fa-seedling {
-    position: absolute;
-    top: 92.5%;
-    left: 5%;
-}
-.fa-house {
-    position: absolute;
-    top: 99%;
-    left: 5%;
-}
-.fa-ruler {
-    position: absolute;
-    top: 111.5%;
-    left:5%;
-}
-.fa-calendar {
-    position: absolute;
-    top:118%;
-    left: 5%;
-}
-.fa-check {
-    position: absolute;
-    top:124%;
-    left: 5%;
-}
-.fa-tree {
-    position: absolute;
-    left:5.1%;
-    top:105%;
+
+ul li i {
+    margin-right: 8px; /* Espaciado entre el ícono y el texto */
+    color: #555; /* Color del ícono, opcional */
 }
 h2 {
     color:blue
