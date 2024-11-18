@@ -12,41 +12,26 @@
 li {
     list-style: none;   
 }
-.fa-toilet {
-    position: absolute;
-    top:93%;
-    left: 5%;
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
 }
-.fa-bed {
-    position: absolute;
-    top: 87%;
-    left:5%
+
+ul li {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
 }
-.fa-seedling {
-    position: absolute;
-    top: 99%;
-    left: 5%;
+
+ul li i {
+    font-size: 20px; /* Ajusta el tamaño de los íconos */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
 }
-.fa-house {
-    position: absolute;
-    top: 106%;
-    left: 5%;
+
+ul li strong {
+    margin-right: 5px; /* Espacio entre el texto en negrita y el valor */
 }
-.fa-ruler {
-    position: absolute;
-    top: 112%;
-    left:5%;
-}
-.fa-calendar {
-    position: absolute;
-    top:118.3%;
-    left: 5%;
-}
-.fa-check {
-    position: absolute;
-    top:125%;
-    left: 5%;
-}
+
 h2 {
     color:blue
 }
